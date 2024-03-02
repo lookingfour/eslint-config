@@ -1,0 +1,55 @@
+{
+  "name": "@lookingfour/eslint-config",
+  "version": "0.0.0",
+  "description": "An eslint configuration that is being used by LookingFour.",
+  "main": "service.json",
+  "author": {
+    "email": "dev@lookingfour.com",
+    "name": "LookingFour Development Team"
+  },
+  "maintainers": [
+    {
+      "email": "dev.darwinarandilla@gmail.com",
+      "name": "Darwin Arandilla"
+    }
+  ],
+  "license": "MIT",
+  "files": [
+    "_base-next.json",
+    "_base-react.json",
+    "_base.json",
+    "next.json",
+    "react.json",
+    "service.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7",
+    "@typescript-eslint/parser": "^7",
+    "eslint": "^8",
+    "eslint-config-next": "^14",
+    "eslint-config-prettier": "^9",
+    "eslint-config-standard-jsx": "^11",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-react-hooks": "^4"
+  },
+  "peerDependenciesMeta": {
+    "eslint-config-next": {
+      "optional": true
+    },
+    "eslint-config-standard-jsx": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
