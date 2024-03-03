@@ -13,6 +13,15 @@
       "name": "Darwin Arandilla"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lookingfour/eslint-config.git"
+  },
+  "homepage": "https://github.com/lookingfour/eslint-config",
+  "bugs": {
+    "email": "dev@lookingfour.com",
+    "url": "https://github.com/lookingfour/eslint-config/issues"
+  },
   "license": "MIT",
   "files": [
     "_base-next.json",
