@@ -1,6 +1,6 @@
 {
   "name": "@lookingfour/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An eslint configuration that is being used by LookingFour.",
   "main": "service.json",
   "author": {
