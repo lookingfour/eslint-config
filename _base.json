@@ -16,6 +16,14 @@
     "no-unreachable-loop": "error",
     "no-unused-vars": "off",
     "no-self-compare": "error",
+    "prefer-promise-reject-errors": "error",
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
+      {
+        "prefer": "type-imports",
+        "fixStyle": "inline-type-imports"
+      }
+    ],
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
